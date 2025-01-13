@@ -1,8 +1,10 @@
 import React from 'react';
+import Header from '@/components/layout/Header';
 
 const Home: React.FC = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh', textAlign: 'center' }}>
+    <div >
+      <Header />
       <h1>Welcome to My Website</h1>
       <p>Explore and discover amazing projects and content.</p>
     </div>
