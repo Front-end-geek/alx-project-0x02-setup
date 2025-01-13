@@ -4,7 +4,6 @@ import Link from 'next/link';
 const Header: React.FC = () => {
   return (
     <div>
-      <h1>Header</h1>
       <nav>
         <ul style={{display: 'flex', gap: '1 rem', listStyleType: 'none'}}>
           <li>
