@@ -19,3 +19,11 @@ export interface ButtonProps {
     onClick: () => void;
     children: React.ReactNode;
 }
+
+export interface PostProps {
+    userId: number;
+    Id: number;
+    title: string;
+    body: string;
+}
+
