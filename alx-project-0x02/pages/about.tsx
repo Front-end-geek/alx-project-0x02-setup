@@ -2,6 +2,7 @@
 // pages/about.tsx
 import React from 'react';
 import Button from '@/components/common/Button';
+import Header from '@/components/layout/Header';
 
 const About = () => {
   const handleClick = (size: string, shape: string) => {
@@ -10,6 +11,7 @@ const About = () => {
 
   return (
     <div>
+      <Header />
       <h1>About Us</h1>
       <div style={{ display: 'flex', gap: '10px', marginTop: '20px' }}>
         <Button size="small" shape="rounded-sm" onClick={() => handleClick('small', 'rounded-sm')}>
